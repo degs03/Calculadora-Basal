@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body{
+    background-color: #f6f5f7;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#contenedor{
+    background-color: red;
+    width: 850px;
+    height: 500px;
+    position: absolute;/*se adapta al contenedor, utilizar flex, investigar*/
+    inset: 0;
+    margin: auto;/*centra el contenido del cuerpo le permite al navegador ubicar de una mejor manera los margenes*/
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+}
+#hid{
+    color: #5e5d5c;
+}
+#formulario{
+    background-color: white;
+    float: left;/*ubica el elemento a la izquierda*/
+    width: 50%;
+    height: 100%;
+}
+#detalle{
+    background-color: #5e5d5c;
+    float: left;
+    color: white;
+    width: 50%;
+    height: 100%;
+}
+.contenido{ /*como centrar un div verticalmente*/
+    top:50%;
+    padding: 30px;
+    position: relative;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+input{
+    background-color:#8daa91;
+    padding: 10px 15px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 70%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+#valor1:hover{
+    box-shadow:0 8px 15px rgba(0,0,0,0.25), 
+    0 8px 8px rgba(0,0,0,0.22);
+}
+
+#bott{
+    padding: 12px 30px;
+    font-size: 15px;
+    text-transform: uppercase;/*cambiar a mayusculas*/
+    font-weight: bold; /*poner en negritas*/
+    font-family: 'Montserrat',sans-serif;
+    background-color:white;
+    border:3px solid  ;
+    border-radius: 50px;
+    color:#8daa91;
+}
+#volumen{
+    color: #5e5d5c;
+    font-size: 25px;
+    font-weight: bold;
+}
+#met2{
+    color: #5e5d5c;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+#met2b{
+    color: #5e5d5c;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+#hora{
+    color: #5e5d5c;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+#mantd{
+    color: #5e5d5c;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+#bott:hover{
+    background-color:#8daa91;
+    color: #f6f5f7;
+}
+#dia{
+    margin-top: 10px;
+    font-weight: bold;
+}
+#resultado{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#met{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 20px;
+}

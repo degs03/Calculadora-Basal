@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head><!--Todos los datos necesarios que necesita el navegador-->
+        <title>Hidratacion</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <script type="text/javascript" src="./resultados.js"></script>
+        <div id="contenedor"><!--podemos colocar ambos contenedor y detalle en una misma clase-->
+            <div id="formulario">
+                <div class="contenido"> <!--agarra solamente el div, sin margenes ni alto ni ancho-->
+                    <h1 id="hid">Hidratación Basal</h1>
+                    <p>Ingrese el peso en kg</p>
+                    <input id="valor1" placeholder="Ingrese el peso en kg"><br><!--Placeholder sirve para determinar que hacer--> 
+                    <input id="bott"  type="button" name = "operacion" value="Calcular" onclick="operaciones()">
+                    <input id="bott"  type="button" name = "operacion" value="Borrar" onclick="borrar()"><br>
+                    <div id="met">
+                        <label id="meta"></label>
+                        <label id="metb"></label>
+                    </div>
+                    <div id="resultado">
+                        <label id="met2b" ></label><br>
+                        <label id="met2" ></label><br>
+                        <label id="volumen" ></label><br>
+                        <label id="hora"></label><br>
+                        <label id="mantd"></label><br>
+                        <label id="mantd2"></label><br>
+                    </div>
+                </div>
+            </div>  
+            <div id="detalle">
+                <div class="contenido">
+                    <h1>Como se calcula?</h1>
+                    <ul id="lis1">
+                        <li>Cuando el niño tiene hasta 10kg: 100cc por cada kilo.</li>
+                        <li>Luego, por cada kilo arriba de 10 y hasta 20kg, se suman 50cc.</li>
+                        <li>Finalmente, por cada kilo arriba de 20kg se suman 20cc.</li>
+                    </ul>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>  
